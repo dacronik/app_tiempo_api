@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 900px;
+    height: 600px;
+    background-color: rebeccapurple;
+    margin: 200px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    place-content: center;
+
+}
+.card__header{
+    width: 100%;
+    height: 280px;
+    background-color: aqua;
+}
+.card__header__image{
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+.card__image__img{
+    width: 35%;
+}
+.card__title{
+    display: flex;
+    flex-direction: column;
+}
+.card__title_city{
+    color: black;
+    font-size: 1.5rem;
+}
+.card__container{
+    width: 100%;
+    height: 280px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 1fr;
+    place-content: center;
+}
+.card__body{
+    background-color: aqua;
+}
+.card__title__dias{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+}
+.card__image{
+    display: flex;
+    justify-content: center;
+}
+.card__image img{
+    width: 50%;
+}
+.card__temperaturas{
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+}
+.card__minima h3{
+    font-size: 1rem;
+}
+.card__maxima h3{
+    font-size: 1rem;
+}
+.check{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.check h6{
+    color: #fff;
+}
